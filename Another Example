@@ -1,0 +1,7 @@
+x = 5
+
+# Check if x is NOT equal to 10
+if not x == 10:
+    print("x is not equal to 10.")
+else:
+    print("x is equal to 10.")

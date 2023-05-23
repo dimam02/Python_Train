@@ -1,0 +1,18 @@
+# Financial and Sales Logic Example
+
+# Variables representing financial and sales conditions
+revenue = 1000000  # Annual revenue in dollars
+expenses = 800000  # Annual expenses in dollars
+customers = 1000  # Number of customers
+
+# Boolean expressions representing financial and sales conditions
+profitable = revenue > expenses  # Is the company profitable?
+high_revenue = revenue >= 1000000  # Is the revenue high?
+high_expenses = expenses >= 800000  # Are the expenses high?
+many_customers = customers > 1000  # Are there many customers?
+
+# Complex boolean logic combining financial and sales conditions
+if (profitable or high_revenue) and (high_expenses or many_customers):
+    print("The company is performing well.")
+else:
+    print("The company needs to improve its performance.")
